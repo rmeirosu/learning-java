@@ -51,7 +51,7 @@ public class Main {
 			/*If you don't want the value to be overwritten, 
 				use the final keyword (this declares the variable
 				as final or constant)*/
-			final myNewNum = 16;
+			final int myNewNum = 16;
 			System.out.println("This is a final var: " + myNewNum);
 			//Assign new value to final var
 			//myNewNum = 21; //This will generate a compilation error
