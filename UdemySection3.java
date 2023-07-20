@@ -3,7 +3,7 @@ This contains exercises from 'Java Programming Masterclass updated to Java 17' f
 (https://deloittedevelopment.udemy.com/course/java-the-complete-java-developer-course/)
 */
 
-public class udemy {
+public class UdemySection3 {
 	public static void main(String[] args) {
 		//Section 3 - First Steps
 			System.out.println("Hello World");
