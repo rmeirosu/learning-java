@@ -50,7 +50,7 @@ public class udemy {
 		-most basic data types
 		-8 primitive data types by type of data stored for each:
 			1. whole number: byte, short, int, long
-			2. real number: float, duble
+			2. real number: float, double
 			3. single character: char
 			4. boolean value: boolean*/
 		int myValue = 10000; //integer is a whole number, no fractions or decimals
@@ -60,7 +60,7 @@ public class udemy {
 			System.out.println("Busted Max Value = " + (myMaxIntValue + 1)); //Overflow - put a value larger than max into an int
 			//maximum value when it overflows wraps around to the minimum value and continues processing
 			System.out.println("Busted Min Value = " + (myMinIntValue - 1)); //Underflow - put a smaller value than min into an int
-			//minimum value when it underflows wraps around to the maximum value and continues processing
+			//minimum value, when it underflows wraps around to the maximum value and continues processing
 		/*int myMaxIntTest = 2147483648;
 			-Assigning a value outside the range throws an error.*/
 /////////////////////////////////////////////////////////////////////////////////		
@@ -90,7 +90,7 @@ public class udemy {
 			in a calculation, so it doesn't know if the value fits and throws an error.
 			-We let Java know that it will fit with a concept called Casting.
 			-Casting means to treat or convert a number from one type to another.
-			-We put the type we want the number to be in parantheses.*/
+			-We put the type we want the number to be in parentheses.*/
 		byte myNewByteValue = (byte) (myMinByteValue / 2);
 			System.out.println("myNewByteValue is: " + myNewByteValue);
 /////////////////////////////////////////////////////////////////////////////////			
@@ -141,7 +141,7 @@ public class udemy {
 			System.out.println("new myFloatValue is: " + myFloatValue);
 		myDoubleValue = 5D / 3D; //note the change in precision
 			System.out.println("new myDoubleValue is: " + myDoubleValue);
-		myDoubleValue = 5.00 / 3.00; //using decimals instead of sufix (D) and Java will know it's a double type - resulting a double
+		myDoubleValue = 5.00 / 3.00; //using decimals instead of suffix (D) and Java will know it's a double type - resulting a double
 			System.out.println("decimal myDoubleValue is: " + myDoubleValue);		
 		myDoubleValue = 5.00 / 3; //using only one operand with decimals and Java will know it's a double type - resulting a double
 			System.out.println("one operand double myDoubleValue is: " + myDoubleValue);
@@ -231,7 +231,7 @@ public class udemy {
 			-Operators in Java are special symbols that perform specific operations on one, two or 
 			three operands and then return a result.
 		Operands:	
-			-An operrand is a term used to describe any object that is manipulated by an operator.
+			-An operand is a term used to describe any object that is manipulated by an operator.
 		Example:
 			-example: int myVar = 15 + 12; '+' sign is the operator, '15' and '12' are the operands.
 			-Variables used instead of literals (myVar instead of 15) can be used as operands.
