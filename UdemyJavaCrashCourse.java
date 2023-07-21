@@ -30,8 +30,7 @@ public class UdemyJavaCrashCourse {
         BigDecimal z = new BigDecimal("123.45678901234567890123456789012345678");
         /*Typing the number as string we get full precision, otherwise it would be set to a double and lose precision.
         Accuracy of mathematical operations is greater with BigDecimal.
-        See Accuracy project.*/
-
+        !!!!!!!!!See Accuracy project.*/
         System.out.printf("z is %.99f %n", z);
     }
 }
